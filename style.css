@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Nanum+Gothic&family=Open+Sans:wght@300&display=swap');
+
+/* font-family: 'Kumbh Sans', sans-serif; */
+/* Font size (name and stats): 18px */
+
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: hsl(185, 75%, 39%);
+    --cor1: hsl(229, 23%, 23%);
+    --cor2: hsl(227, 10%, 46%);
+    --cor3: hsl(0, 0%, 59%);
+    --font: font-family: 'Kumbh Sans', sans-serif;
+
+}
+body {
+    background-color: var(--cor0);
+
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #cdedf0, #28b5c2);
+    border-radius: 20px;
+    width: 400px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    min-height: 370px;
+    max-height: 1300px;
+    width: 300px;
+    height: 400px;
+
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+.container img {
+    display: grid;
+    margin: auto;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+.container img:hover {
+    display: grid;
+    margin: auto;
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    border: 8px solid hsl(185, 75%, 39%);
+    transition: all 0.3s ease;
+
+}
+.icon {
+    display: flex;
+    justify-content:flex-end;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.521);
+    padding-top: 10px;
+  
+}
+.icon p {
+    display: grid;
+    justify-items: center;
+    padding: 0px 30px;
+    
+}
+.title p, h1 {
+    display: grid;
+    justify-items: center;
+
+}
+
