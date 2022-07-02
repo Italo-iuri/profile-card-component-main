@@ -11,8 +11,8 @@
 }
 
 :root {
-    --cor0: hsl(185, 75%, 39%);
-    --cor1: hsl(229, 23%, 23%);
+    --cor0: #19a2ae;
+    --cor1: #2d3248;
     --cor2: hsl(227, 10%, 46%);
     --cor3: hsl(0, 0%, 59%);
     --font: font-family: 'Kumbh Sans', sans-serif;
@@ -77,5 +77,19 @@ body {
     display: grid;
     justify-items: center;
 
+}
+.attribution {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.attribution a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+}
+.attribution a:hover {
+    text-decoration: underline;
+    
 }
 
